@@ -45,3 +45,41 @@ The Home EJS project is a web application built with Node.js and Express.js, usi
    ```bash
    node app.js
    ```
+6. Open your web browser and navigate to http://localhost:3000.
+
+### Usage
+- Home Page: Lists all the posts with a snippet and a "Read More" link.
+- Compose Page: Allows you to create a new post.
+- About Page: Static about page with predefined content.
+- Contact Page: Static contact page with predefined content.
+
+### Files
+Directory Structure
+home-ejs
+```bash
+├── public
+│   └── css
+│       └── styles.css
+├── views
+│   ├── partials
+│   │   ├── header.ejs
+│   │   └── footer.ejs
+│   ├── about.ejs
+│   ├── compose.ejs
+│   ├── contact.ejs
+│   ├── home.ejs
+│   └── post.ejs
+├── .gitignore
+├── app.js
+├── package-lock.json
+└── package.json
+```
+
+### Contributing
+Feel free to submit issues and enhancement requests. Fork the repository and make your changes in a separate branch, then submit a pull request.
+
+- Fork the repository
+- Create a new branch (git checkout -b feature-foo)
+- Commit your changes (git commit -am 'Add some foo')
+- Push to the branch (git push origin feature-foo)
+- Create a new Pull Request
